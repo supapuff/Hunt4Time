@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="lightsdonefirstmaph2t" tilewidth="32" tileheight="32">
+  <image source="lightsdonefirstmaph2t.jpg" width="640" height="640"/>
+ </tileset>
+ <tileset firstgid="401" name="meta_tiles" tilewidth="32" tileheight="32">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="403" name="terrain_atlas" tilewidth="32" tileheight="32">
+  <image source="terrain_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <layer name="Background" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwNwwOUEAYAANDLti5c9uUuX7Ztuy67u2wbW27L3DK22rJtY4tb3OJQ/73/IwUEBEQ2ilGNZnRjGNNYxjaOcY1nfBOY0EQmNolJTWZyUxhoSlOZ2jQGmdZ0pjeDGc1kZrOY1WxmN4c5DTaXuc1jXvOZ3wIWNMRCFraIRS1mcUsYaklLWdoylrWc5a1gRStZ2SpWtZrVrWFNa1nbOta1nvVtYEMb2dgmNrWZzW1hS1vZ2ja2tZ3t7WBHO9nZLnY1zG52t4c97WVv+9jXfvZ3gAMd5GDDjXCIQx3mcEc40lGOdoxjHed4JzjRSU52ilOd5nRnONNZznaOc53nfL/xWxe40EUudolLXeZyv/N7V7jSVa52jWtd53o3uNFNbvYHf3SLW93mdne4013udo97/cmf3ed+f/FXD3jQQx72iEc95nFPeNJTnvaMZz3neS940Ute9opXveZ1b3jTW972jne9530f+NDf/N1HPvaJT33mc//wT1/40le+9o1v/cu/fed7P/jRT372H//1P//3iwGRMLJRjGo0oxvDmMYytnGMazzjm8CEJjKxSUxqMpObwkBTmsrUpjHItKYzvRnMaCYzm8WsZjO7OcxpsLnMbR7zms/8FrCgIRaysEUsajGLW8JQS1rK0paxrOUsbwUrWsnKVrGq1axuDWtay9rWsa71rG8DG9rIxjaxqc1sbgtb2srWtrGt7WxvBzvayc52sathdrO7PexpL3vbx772s78DHOggBxtuhEMc6jCHO8KRjnK0YxzrOMc7wYlOcrJTnOo0pzvDmX4FUpio2g==
+  </data>
+ </layer>
+ <layer name="SpecialTiles" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYMJERNybXPFLEiXETNczDBSYxkm8etd1HK/Mojd+JZITRqHm0NW8SBXkUm3nINDHqiUlbpJiHDCbh0EeuefjcTKx51CofqQ0ATeAqyg==
+  </data>
+ </layer>
+ <layer name="Mushroom" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwn0WAfaBaNgFJAOhnO6Hc5+ozYAAJvcAJo=
+  </data>
+ </layer>
+</map>
