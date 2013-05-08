@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "cocos2d.h" // HEJ DET LUKTAR POPCORN!
+#import "cocos2d.h" // HEJ DENNIS LUKTAR KUNGLIGT
 
 
 
