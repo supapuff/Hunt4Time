@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "cocos2d.h" // Hej David 
+#import "cocos2d.h" // Hej varför funkar det inte?!
 
 
 
